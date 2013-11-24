@@ -10,7 +10,7 @@ Supported functions
 
 These commands are supported so far: PI, ECHO, DPS1, DPS1ENQ, DPS2, PS, PTYN, RT1, RT2, TPS, RT1EN, RT2EN. All commands are available through getters/setters. 
 
-See the example.py on how to use these.  
+See the [example.py](https://github.com/idserda/pirapy/blob/master/example.py) on how to use these.  
 
 Contact
 ------
