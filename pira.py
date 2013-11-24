@@ -31,16 +31,16 @@ class PiraRDS(object):
 		return self.__setValue("PI", pi.strip())
 
 	def isRt1en(self):
-		return True if __self.__getValue("RT1EN") == "1" else False;
+		return True if self.__getValue("RT1EN") == "1" else False;
 
 	def setRt1en(self, value):
-		return __self.__setValue("RT1EN", 1 if value else 0)
+		return self.__setValue("RT1EN", 1 if value else 0)
 
 	def isRt2en(self):
-		return True if __self.__getValue("RT2EN") == "1" else False;
+		return True if self.__getValue("RT2EN") == "1" else False;
 
 	def setRt2en(self, value):
-		return __self.__setValue("RT2EN", 1 if value else 0)
+		return self.__setValue("RT2EN", 1 if value else 0)
 
 	# Store 
 
